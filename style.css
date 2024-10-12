@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    margin:5px;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    background-color: olivedrab;
+}
+h2{
+    margin:10px;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+}
+
+.btn{
+    padding:5px;
+    border-radius: 10px;
+    width:50px;
+    background-color: white;
+    cursor:pointer;
+}
+.btn:hover{
+     background-color: green;
+     color:white;
+}
+.middle{
+    text-align: center;
+}
+.box{
+  margin:10px;
+  padding:10px;
+  display:inline-block;
+  width:220px;
+  border-style: solid;
+  border-color: darkgreen;
+  border-width:3px;
+  border-radius: 15px;
+}
+ul{
+    list-style-position: inside;
+}
